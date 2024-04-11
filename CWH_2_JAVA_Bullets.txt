@@ -1,0 +1,5 @@
+Important points of java--
+
+1- * stands for all the compilation units inside the package com.microsoft.azure.storage where
+   sub packages are actually not compilation units and thus not fetched when you write
+   myPack.*. Compilation unit includes class, interface, enum etc.
