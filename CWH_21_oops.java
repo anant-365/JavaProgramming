@@ -34,9 +34,9 @@
 // Phone           →        Smart Phone
 package com.company;
 class employer{
-    int id,salary;
-    String name;
-    public void print_info(){
+    int id,salary;//attribute
+    String name;//attribute
+    public void print_info(){//method or property of class.
         System.out.println("My id is "+id+" , Salary is "+salary+" usd"+" and name is "+name);
     }
 }
@@ -45,13 +45,13 @@ public class CWH_21_oops {
         employer Anant= new employer();
         employer John= new employer();
 
-//      Setting attributes for Anant:
+//      Setting attributes for Anant(instance 1 of class employer):
         Anant.id=9;
         Anant.salary=10000;
         Anant.name="Anant";
         Anant.print_info();
 
-//      Setting attributes for John:
+//      Setting attributes for John(instance 2 of class employer):
         John.id=10;
         John.salary=10000;
         John.name="John";
