@@ -71,7 +71,7 @@ public class CWH_40_Collection_ArrayList {
          
         ArrayList<String> arrList = new ArrayList(Arrays.asList("1","a","7","bird","snake"));
         System.out.println(arrList);
-        arrList.remove((Object)7);
+        arrList.remove((Object)7); // REMOVE METHOD IS OF 2 TYPES BASED ON THE TYPE OF INPUT ARGUMENT- (1) OBJECT, (2) INDEX. 
         System.out.println(arrList);  
         Iterator<String> iterator = arrList.iterator();
         while(iterator.hasNext()){
