@@ -62,5 +62,20 @@ public class CWH_40_Collection_ArrayList {
                 System.out.print(l1.get(i));
                 System.out.print(", ");
             }
+
+//--------EDITED ON 5/5/2024--------(BELOW)
+         
+       // BELOW IS IMPLEMENTATION FOR ITERATOR INTERFACE OF JAVA COLLECTION FRAMEWORKS.
+       // IT IS USED IN OPERATIONS LIKE SEARCHING, TRAVERSING, ACCESSING ELEMENT OF COLLECTION.
+      // IT CONTAINS METHOD LIKE -- hasNext(), Next(), Remove().
+         
+        ArrayList<String> arrList = new ArrayList(Arrays.asList("1","a","7","bird","snake"));
+        System.out.println(arrList);
+        arrList.remove((Object)7);
+        System.out.println(arrList);  
+        Iterator<String> iterator = arrList.iterator();
+        while(iterator.hasNext()){
+            System.out.println(iterator.next());
+           }
         }
     }
